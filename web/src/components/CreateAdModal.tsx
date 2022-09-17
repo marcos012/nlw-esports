@@ -201,7 +201,7 @@ export const CreateAdModal = ({ games }: CreateAdModalProps) => {
             <Checkbox.Root
               className="w-6 h-6 p-1 rounded bg-zinc-900"
               onCheckedChange={(checked) => {
-                setUseVoiceChannel(checked ? true : false);
+                setUseVoiceChannel(checked === true ? true : false);
               }}
             >
               <Checkbox.Indicator>

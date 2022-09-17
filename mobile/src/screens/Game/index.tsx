@@ -33,8 +33,6 @@ export function Game() {
     fetch(`http://192.168.15.15:3333/ads/${adId}/discord`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.discord);
-
         setDiscordUsername(data.discord);
         setIsDiscordModalOpen(true);
       });
