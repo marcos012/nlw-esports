@@ -25,11 +25,12 @@ Plataforma para conectar pessoas para jogarem juntas.
 
 ## Documentação
 Protótipos do projeto: [Figma](https://www.figma.com/community/file/1150897317533332617)
+
 Outras informações: [Notion](https://efficient-sloth-d85.notion.site/Ignite-18c1174738e54f1d8e742f794e210cd2)
 
 ## Setup
 
-<b>Backend</b>
+**Backend**
 
 Crie um arquivo ``.env`` na pasta server com o seguinte conteúdo:
 
@@ -45,7 +46,8 @@ No terminal, entre na pasta server e rode o seguinte comando:
 Esse comando ira instalar as dependências, iniciar o banco local já com dados e iniciar o servidor.
 
 <br>
-<b>Frontend</b>
+
+**Frontend**
 
 Entre na pasta web e rode o seguinte comando:
 
@@ -56,7 +58,8 @@ Entre na pasta web e rode o seguinte comando:
 Esse comando ira instalar as dependências e iniciar o frontend.
 
 <br>
-<b>Mobile</b>
+
+**Mobile**
 
 Entre na pasta mobile e rode o seguinte comando:
 
@@ -101,6 +104,7 @@ Depois disso é só iniciar o seu emulador, ou entao baixar o app Expo GO em um 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `string` | **Obrigatório**. O ID do game que você quer |
+
 **request body:**
 ```JSON
 {
